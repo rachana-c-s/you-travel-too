@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+           
+        img{
+            width: 80mm;
+        }
+
+
+        p.one{
+            border-style: ridge;
+            border-color: rgb(255, 255, 255);
+            border-width: 10px;
+            width: 1000px;
+            height: 60px;
+            text-align-last: center;
+            font-size: xx-large;
+            background:palevioletred;
+            position: relative;
+            animation-name: example;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+
+        }
+
+        h1{
+            width: 1000px;
+            height: 50px;
+            background: red;
+            position: relative;
+            animation-name:example;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+
+        }
+
+        @keyframes example {
+            from {left: 20px}
+            to {left: 200px; background-color:rgb(173, 49, 173);}
+            
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+        }
+
+        html{
+            font-family: 'Times New Roman';
+        }
+
+        .header {
+            background-color:#eebb20;
+            color: #ffffff;
+            padding: 15px;
+            
+        }
+
+        .menu ul{
+            list-style-type: none;
+            margin:0;
+            padding: 0;
+        }
+
+        .menu li{
+            padding:8px;
+            margin-bottom: 7px;
+            background-color:#a551dd;
+            color: #ffffff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+
+        .menu li:hover{
+            background-color:#61b1df;
+
+        }
+
+        .aside{
+            background-color: #61b1df;
+            padding: 15px;
+            color: #ffffff;
+            text-align: center;
+            font-size: 14px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+        }
+
+        .footer{
+            background-color:#a551dd;
+            background-color:#61b1df;
+            color: #ffffff;
+            text-align:center;
+            font-size: 12px;
+            padding: 15px;
+        }
+
+        [class*="col-"]{
+            width: 100%;
+        }
+
+        @media only screen and (min-width: 600px){
+
+            .col-s-1 {width: 8.33%;}
+            .col-s-2 {width: 16.66%;}
+            .col-s-3 {width: 25%;}
+            .col-s-4 {width: 33.33%;}
+            .col-s-5 {width: 41.66%;}
+            .col-s-6 {width: 50%;}
+            .col-s-7 {width: 58.33%;}
+            .col-s-8 {width: 66.66%;}
+            .col-s-9 {width: 75%;}
+            .col-s-10 {width: 83.33%;}
+            .col-s-11 {width: 91.66%;}
+            .col-s-12 {width: 100%;}
+        }
+
+        @media only screen and( min-width: 768px) {
+
+            .col-1 {width: 8.33%;}
+            .col-2 {width: 16.66%;}
+            .col-3 {width: 25%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 50%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}
+
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <p class="one">YOU TRAVEL TOO...!</p>
+    </div>
+    <div class="row">
+        <div class="col-3 col-s-3 menu">
+            <ul>
+                <li>Indonesia</li>
+                <li>Singapore</li>
+                <li>Australia</li>
+                <li>The Philippines</li>
+            </ul>
+        </div>  
+
+        <div class="col-6 col-s-9">
+            <img src= "C:\Users\Rachana\Desktop\html\undraw_My_current_location_re_whmt.png" align="right"/>
+            <h2>Where are You Going Next?
+            </h2>
+            <h4>
+                Here are our top offers. Choose the one you want, suggest yours and pack your luggage...!
+                Get ready for traveling! Read our travel guides, tips, how-to’s, and travel stories from around the world.
+                </h4>
+
+        </div> 
+        <div class="col-3 col-s-12">
+            <div class="aside">
+                <h2>How To Make People More Productive?</h2>
+                <p>
+                Travel is the movement of people between distant geographical locations.Travel can be done by foot,bicycle,automobile,train,boat,bus,airplane,ship or other means,with or without luggage,and can be one way or round trip.Travel can also include relatively short stays between successive movements,as in the case of tourism.
+                </p>
+                <h2>Not Sure About The Next Travel Destination ? Here We Go</h2>
+                <p>
+                   Reasons for traveling include recreation, tourism or vacationing,research travel, the gathering of information,visiting people,volunteer travel for charity, migration to begin life somewhere else,religious pilgrimages and mission trips,business travel,trade,commuting,and other reasons,such as to obtain health care or waging or fleeing war or for the enjoyment of traveling.Travelers may use human-powered transport such as walking or bicycling;or vehicles,such as public transport,automobiles,trains and airplanes.
+                </p>
+                <h2>The Best Destination To Travel In 2021</h2>
+                <p>
+                    Places of natural beauty such as beaches, tropical island resorts, national parks, mountains, deserts and forests, are examples of traditional tourist attractions which people may visit. Cultural tourist attractions can include historical places, monuments, ancient temples, zoos, aquaria, museums and art galleries, botanical gardens, buildings and structures (such as forts, castles, libraries, former prisons, skyscrapers, bridges), theme parks and carnivals, living history museums, public art (sculptures, statues, murals), ethnic enclave communities, historic trains and cultural events. Factory tours, industrial heritage, creative art and crafts workshops are the object of cultural niches like industrial tourism and creative tourism. Many tourist attractions are also landmarks. But sports events such as a soccer game, Formula 1 race or sailing regatta can also attract tourists.
+                </p>
+            </div>
+        </div>           
+    </div>
+    <div class="footer">
+        <h4>Utraveltoo agency is your trustful traveling companion
+            offering tours to unique destinations and unrevealed places.</h4>
+    </div>
+</body>
+</html>
